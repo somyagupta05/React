@@ -15,6 +15,7 @@ const Controls = () => {
   const handlePrivacyToggle = () => {
     dispatch({ type: "PRIVACY" });
   };
+  // for addition
   const handleAdd = () => {
     dispatch({
       type: "ADD",
@@ -24,7 +25,7 @@ const Controls = () => {
     });
     inputElement.current.value = "";
   };
-
+  // for subtraction
   const handleSubtract = () => {
     dispatch({
       type: "SUBTRACT",
